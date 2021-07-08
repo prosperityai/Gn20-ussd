@@ -1,8 +1,8 @@
-    const credentials = {
-        apiKey: '264caac2e28502d4dab759192f75a62d7f50f655e9b2a7fc32b43c0724e90367', 
-        username: 'GazetiNet',
+    // const credentials = {
+    //     apiKey: ' 
+    //     username: '',
         
-      }
+    //   }
 
     const Africastalking = require('africastalking')(credentials);
    
@@ -10,7 +10,7 @@
   
     const sendSMS =  async (to, message) => {
       const options = {
-        to: ['+255769079406'],
+        // to: [''],
         message: message,
         from:"MAVUNO",
         enque: true
@@ -26,6 +26,6 @@
         })
     }
 
-    sendSMS("+255699496430", "test" )
+    //sendSMS("+255699496430", "test" )
     
     console.log(sendSMS)

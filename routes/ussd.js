@@ -2,8 +2,7 @@ const { index } = require('.')
 const Eneo = require('../models/models')
 const MongoClient = require('mongodb').MongoClient
 
-// e9f5a3430deeadab1f5fa31c2d0e652f395c83340e561c0e96a42b3083afe91b
-// 8324b52dbdbdc55139727901fe29e27d5e527e80e1ee61bab642c025b04a6c7d
+
 const credentials = {
   apiKey: 'e9f5a3430deeadab1f5fa31c2d0e652f395c83340e561c0e96a42b3083afe91b', // use your sandbox app API key for development in the test environment
   username: 'tapbds', // use 'sandbox' for development in the test environment
